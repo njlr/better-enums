@@ -6,3 +6,8 @@ doc/html/
 doc-publish/
 test/cxxtest/*.cc
 test/build
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS

@@ -1,0 +1,38 @@
+cxx_binary(
+  name = 'hello-world',
+  srcs = [
+    '1-hello-world.cc',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:better-enums',
+  ],
+)
+
+cxx_binary(
+  name = 'conversions',
+  srcs = [
+    '2-conversions.cc',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:better-enums',
+  ],
+)
+
+cxx_binary(
+  name = 'iterate',
+  srcs = [
+    '3-iterate.cc',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:better-enums',
+  ],
+)
